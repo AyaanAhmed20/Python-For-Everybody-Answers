@@ -14,10 +14,10 @@ CREATE TABLE Ages (
 Then make sure the table is empty by deleting any rows that you previously inserted, and insert these rows and only these rows with the following commands:
 
 DELETE FROM Ages;
-INSERT INTO Ages (name, age) VALUES ('Mara', 28);
-INSERT INTO Ages (name, age) VALUES ('Otto', 33);
-INSERT INTO Ages (name, age) VALUES ('Fyn', 31);
-INSERT INTO Ages (name, age) VALUES ('Neshawn', 17);
+INSERT INTO Ages (name, age) VALUES ('Mara', 40);
+INSERT INTO Ages (name, age) VALUES ('Otto', 15);
+INSERT INTO Ages (name, age) VALUES ('Fyn', 24);
+INSERT INTO Ages (name, age) VALUES ('Neshawn', 38);
 
 Once the inserts are done, run the following SQL command:
 SELECT hex(name || age) AS X FROM Ages ORDER BY X
